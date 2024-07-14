@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#basic-nav-dropdown {
+  color: #E9E4DE;
+  font-size: 18px;
+  padding:15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+
+  
+}
+
+
+
+#basic-nav-dropdown:hover {
+  color: #99ABC1;
+  
+}
+
+#navLink {
+  color:#E9E4DE;
+  font-size: 18px;
+  padding:15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+
+#navLink:hover {
+  color: #99ABC1;
+}
+
+#navLink.active {
+  color: #99ABC1; 
+
+}
+
+#navDropLink {
+  color:#E9E4DE;
+  font-size: 15px;
+
+
+}
+
+#navDropLink:hover {
+  color: #99ABC1;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.releaseYearSlider {
+  /* Overall width of the slider track */
+  width: 200px; /* Adjust as needed */
+
+  /* Track styling */
+  background-color: #ddd;
+  height: 5px; /* Adjust height of the track */
+  border-radius: 2px; /* Rounded corners for smoothness */
+  
+}
+
+  /* Thumb styling */
+  .example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #14293A;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+
+  /* Styling for value labels (optional) */
+  .react-slider-value-label {
+    color: #333; /* Color of the value labels */
+    font-size: 12px; /* Adjust font size */
+    position: absolute; /* Position the labels above the track */
+    top: -20px; /* Adjust vertical positioning */
+  }
+
+  .app-container{display:flex; flex-direction:row;}
