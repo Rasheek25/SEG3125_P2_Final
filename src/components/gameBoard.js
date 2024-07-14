@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 const GameBoard = () => {
     const [gameList, setGameList] = useState([]);
     const[currentPage, setCurrentPage] = useState(1);
-    const[postsPerPage, setPostsPerPage] = useState(5);
+    const[postsPerPage, setPostsPerPage] = useState(4);
 
     const dataRef = collection(db, "games");
 
