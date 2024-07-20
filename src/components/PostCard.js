@@ -14,7 +14,7 @@ const PostCard = ({name, postID}) => {
 
 
   return (
-    <Card onClick={linkReview} className="mb-3 mx-3 my-3 d-inline-block" style={{width: '88rem', cursor:"pointer" }}>
+    <Card onClick={linkReview} className="mb-3 mx-3 my-3 d-inline-block" style={{width: '95%', cursor:"pointer" }}>
      
       <Card.Body style={{height:100, backgroundColor: '#E9E4DE'}}>
         <Card.Title style={{fontSize: 15, fontWeight: 'bold', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis'}}>{name}</Card.Title>

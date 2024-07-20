@@ -5,9 +5,9 @@ import { getDocs, collection } from 'firebase/firestore';
 import React, { useMemo } from 'react';
 import '../components/App.css';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import style from '../components/Style.module.css'
+import FooterRelative from '../components/FooterRelative';
 
 
 function GameGuide() {
@@ -57,15 +57,17 @@ function GameGuide() {
             alt="Game"
           />
           <span className={style.type}>{game.type}</span>
-          <p style={{ fontWeight: 'bold' }}>{game.guide[0]}</p>
-          <p>{game.guide[1]}</p>
-          <p>{game.guide[2]}</p>
-          <p>{game.guide[3]}</p>
-          <p>{game.guide[4]}</p>
+          <div className='mx-3 my-3 mb-3'>
+            <p style={{ fontWeight: 'bold' }}>{game.guide[0]}</p>
+            <p>{game.guide[1]}</p>
+            <p>{game.guide[2]}</p>
+            <p>{game.guide[3]}</p>
+            <p>{game.guide[4]}</p>
+          </div>
         </>
       )}
          
-            <Footer />
+            <FooterRelative />
       
         </div>
     );

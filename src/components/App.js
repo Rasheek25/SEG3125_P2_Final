@@ -18,6 +18,8 @@ import GameGuide from '../pages/GameGuide'
 import Speedruns from '../pages/Speedruns'
 import SpeedrunGame from '../pages/SpeedrunGame'
 import Post from '../pages/Post'
+import About from '../pages/About'
+
 
 <link
   rel="stylesheet"
@@ -42,6 +44,7 @@ function App() {
           <Route path="/GameGuide/:walkthroughID" element = {<GameGuide />} />
           <Route path="/Speedruns/:gameID" element = {<SpeedrunGame />} />
           <Route path="/Post/:postID" element = {<Post />} />
+          <Route path="/About" element = {<About />} />
         </Routes>
       
       </BrowserRouter>

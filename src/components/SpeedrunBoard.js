@@ -59,7 +59,7 @@ const SpeedrunBoard = () => {
     return (
         <div>
             <div className="mb-3 mx-3 my-3" style={{ display: 'flex' }}>
-                <h2 className={style.title}>Speedruns</h2>
+                <h2 className={style.title}>SPEEDRUNS</h2>
 
                 <div style={{ display: 'flex', justifyContent: 'flex-end', marginLeft: 'auto', marginRight: 20}}>
 

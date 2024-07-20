@@ -3,13 +3,13 @@ import { getFirestore } from 'firebase/firestore'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCKHBMByAcQ0M_NBa5iuBWe_TALWWk3ekY",
-  authDomain: "p2mock.firebaseapp.com",
-  projectId: "p2mock",
-  storageBucket: "p2mock.appspot.com",
-  messagingSenderId: "825630576257",
-  appId: "1:825630576257:web:d167aa0c9b886280f94780",
-  measurementId: "G-7QVHR4W3G9"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "p2final-b018f.firebaseapp.com",
+  projectId: "p2final-b018f",
+  storageBucket: "p2final-b018f.appspot.com",
+  messagingSenderId: "62919787035",
+  appId: "1:62919787035:web:341f652e9deb8db3606ebe",
+  measurementId: "G-33XM18MK5E"
 };
 
 // Initialize Firebase

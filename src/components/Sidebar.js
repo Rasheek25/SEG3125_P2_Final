@@ -2,7 +2,7 @@ import Slider from 'react-slider';
 import {useEffect, useState} from "react";
 import './App.css'
 
-function Sidebar({ onFilterChange }) {
+function Sidebar({ onFilterChange, onYearRangeChange }) {
 
     const filtersData = {
         "Release Year": [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017],
@@ -16,9 +16,13 @@ function Sidebar({ onFilterChange }) {
       ]);
 
       const handleReleaseYearChange = (val) => {
-        setSelectedYearRange(val);
+         setSelectedYearRange(val);
+         onYearRangeChange(val);
+        
         
       };
+
+      
 
     return (
                 <div className="sidebar mx-3 my-3" style={{width:225}}>

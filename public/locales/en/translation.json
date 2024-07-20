@@ -1,0 +1,25 @@
+{
+    "navbar": {
+        "link1": "Reviews",
+        "linkdrop1": "All Games",
+        "linkdrop2": "Editor's Choice",
+        "link2": "Guides",
+        "link3": "Speedruns",
+        "link4": "Community"
+    },
+
+    "footer": {
+        "copyright": "Copyright @ 2024",
+        "about": "About Us"
+
+
+    },
+
+    "body": {
+        "open": "Welcome, fellow gamers! We at PlayGround are passionate about games, and we know the struggle of choosing the right one to buy. That's why we created this one-stop shop for all your gaming needs. Here, you'll find in-depth reviews and ratings on a vast library of games. Read what other gamers think before you invest your hard-earned cash. But that's not all! We also offer:",
+        "bullet1": "Comprehensive Guides: Stuck on a tricky level? Need help optimizing your character build? Our guides will help you conquer any challenge.",
+        "bullet2": "Thriving Community Forum: Discuss the latest releases, share strategies, or simply connect with like-minded gamers in our vibrant forum.",
+        "bullet3": "Built-in Speedrun Timer: Push your limits and compete against the clock with our integrated speedrun timer.",
+        "conclusion": "Whether you're a seasoned veteran or a curious newcomer, PlayGround is your ultimate gaming information hub. Dive into reviews, share your experiences, and join the conversation!"
+    }
+}

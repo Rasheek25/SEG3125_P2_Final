@@ -5,11 +5,11 @@ import { getDocs, collection } from 'firebase/firestore';
 import React, { useMemo } from 'react';
 import '../components/App.css';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import style from '../components/Style.module.css'
 import useCountdown from '../components/useCountdown';
 import Button from 'react-bootstrap/esm/Button';
+import FooterRelative from '../components/FooterRelative';
 
 
 
@@ -105,7 +105,7 @@ function SpeedrunGame() {
                                 <h3 style={{textAlign: 'center'}}>Laps:</h3>
                                 
                                 {lapTimes.map((lapTime, index) => (
-                                    <div key={index}>
+                                    <div key={index} className='mb-3 mx-3 my-3'>
                                         <span>{laps[index]}:</span>
                                         <span>{formatTime(lapTime)}</span>
                                     </div>
@@ -120,7 +120,7 @@ function SpeedrunGame() {
   
             
 
-            <Footer />
+            <FooterRelative />
       
         </div>
     );

@@ -1,0 +1,27 @@
+{
+    "navbar": {
+        "link1": "Commentaires",
+        "linkdrop1": "Tous les jeux",
+        "linkdrop2": "Le choix des éditeurs",
+        "link2": "Guides",
+        "link3": "Courses rapides",
+        "link4": "Communauté"
+    },
+
+    "footer": {
+        "copyright": "Droits d'auteur @ 2024",
+        "about": "À propos de nous"
+
+
+    },
+
+    "body": {
+        "open": "Bienvenue, chers joueurs ! Chez PlayGround, nous sommes passionnés par les jeux et nous connaissons la difficulté de choisir le bon jeu à acheter. C'est pourquoi nous avons créé ce guichet unique pour tous vos besoins en matière de jeux. Ici, vous trouverez des critiques et des évaluations approfondies sur une vaste bibliothèque de jeux. Lisez ce que pensent les autres joueurs avant d’investir votre argent durement gagné. Mais ce n'est pas tout! Nous proposons également :",
+        "bullet1": "Guides complets : bloqué à un niveau délicat ? Besoin d'aide pour optimiser la construction de votre personnage ? Nos guides vous aideront à relever tous les défis.",
+        "bullet2": "Forum communautaire prospère : discutez des dernières versions, partagez des stratégies ou connectez-vous simplement avec des joueurs partageant les mêmes idées dans notre forum dynamique.",
+        "bullet3": "Minuterie Speedrun intégrée : repoussez vos limites et affrontez la montre avec notre minuterie Speedrun intégrée.",
+        "conclusion": "Que vous soyez un vétéran chevronné ou un nouveau venu curieux, PlayGround est votre centre d'informations sur les jeux par excellence. Plongez dans les avis, partagez vos expériences et rejoignez la conversation !"
+    }
+
+
+}

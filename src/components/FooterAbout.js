@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Style.module.css';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
     // Calculate the height needed for the footer to stay at the bottom
@@ -13,6 +14,7 @@ const Footer = () => {
     };
 
     const navigate = useNavigate();
+    const{ t, i18n } = useTranslation();
 
     const linkAbout = () => {
         navigate(`/About`)
@@ -26,11 +28,11 @@ const Footer = () => {
                 
                 
                 <div style={{ display: 'flex', justifyContent: 'flex-end', marginLeft: 'auto', marginRight: 20 }}>
-                    <span className={style.companyName}>Copyright © 2024</span>
+                    <span className={style.companyName}>{t('footer.copyright')}</span>
                 </div>
             </div>
             <div className="mb-3 mx-3 my-3" style={{ display: 'flex' }}>
-            <span className={style.about} onClick={linkAbout}>About Us</span>
+            <span className={style.about} onClick={linkAbout}>{t('footer.about')}</span>
             </div>
         </footer>
     );

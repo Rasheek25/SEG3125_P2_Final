@@ -1,3 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .gameBadge {
     position: absolute;
     top: 150px; /* Adjust position as needed */
@@ -49,6 +55,7 @@
   .reviewCover {
     width: 100%;
     height: 500px;
+    object-fit: cover;
   }
 
   .rating {
@@ -104,4 +111,57 @@
     padding: 10px;          
     margin: 5px 0;        
   }
+
+  .footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+  }
+
+  .container {
+    padding-bottom:60px;
+    height: calc(100% - 60px);
+
+  }
+
+  .para {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .about {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .about:hover {
+    cursor: pointer;
+    color:#99ABC1;
+  }
+
+  .lang {
+    background-color: #14293A;
+    color: white; 
+    border: solid white; 
+    padding: 0.5rem 1rem; 
+    margin: 10px;
+    border-radius: 0.25rem; 
+    font-size: 1rem; 
+    cursor: pointer; 
+
+  }
+
+  .aboutPara {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+  }
+
+
+  
+  
+  
+
+
+
 

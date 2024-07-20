@@ -1,22 +1,24 @@
 import React from 'react'
 import '../components/App.css';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
+import FooterRelative from '../components/FooterRelative'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PostList from '../components/postList'
+import '../components/App.css';
 
 
-function Home() {
+
+function Community() {
 
     return (
         <div>
             <Header />
             <PostList />
-            <Footer />
+            <FooterRelative />
       
         </div>
     );
 
 }
 
-export default Home
+export default Community

@@ -5,11 +5,11 @@ import { getDocs, collection } from 'firebase/firestore';
 import React, { useMemo } from 'react';
 import '../components/App.css';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import style from '../components/Style.module.css'
 import { doc, updateDoc, arrayUnion } from 'firebase/firestore';
 import Button from 'react-bootstrap/esm/Button';
+import FooterRelative from '../components/FooterRelative';
 
 
 
@@ -32,7 +32,7 @@ function Post() {
           const filteredData = data.docs.map((doc) => ({
             ...doc.data(), 
             id: doc.id
-        })).filter((doc) => doc.postID == postID);
+        })).filter((doc) => doc.id == postID);
 
         const filteredDataRep = dataRep.docs.map((doc) => ({
             ...doc.data(), 
@@ -93,7 +93,7 @@ function Post() {
             <hr/>
             <div className="mb-3 mx-3 my-3 d-flex flex-column">
 
-                <div>
+                <div style={{minHeight: window.innerHeight-400, minWidth:window.innerWidth-250}}>
             
                     {replies.map((reply, index) => (
                         <div key={index} style={{marginTop:'30px'}}>
@@ -118,7 +118,7 @@ function Post() {
             </div>
 
             
-            <Footer />
+            <FooterRelative />
       
         </div>
     );

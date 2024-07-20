@@ -2,14 +2,12 @@ import React from 'react';
 import style from './Style.module.css';
 import { useNavigate } from 'react-router-dom';
 
-const Footer = () => {
+const FooterRelative = () => {
     // Calculate the height needed for the footer to stay at the bottom
     const footerStyle = {
-        position: 'absolute',
-        left: 0,
-        bottom: 0,
+        position: 'relative',
         width: '100%',
-        padding: '10px 0',
+        padding: '10px 0'
     };
 
     const navigate = useNavigate();
@@ -23,8 +21,6 @@ const Footer = () => {
             <hr/>
             <div className="mb-3 mx-3 my-3" style={{ display: 'flex' }}>
                 <span className={style.companyName}>PlayGround</span>
-                
-                
                 <div style={{ display: 'flex', justifyContent: 'flex-end', marginLeft: 'auto', marginRight: 20 }}>
                     <span className={style.companyName}>Copyright © 2024</span>
                 </div>
@@ -36,4 +32,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default FooterRelative;

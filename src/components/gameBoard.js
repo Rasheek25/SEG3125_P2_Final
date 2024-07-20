@@ -1,5 +1,5 @@
 import style from './Style.module.css';
-import {useEffect, useState} from "react";
+import {useEffect, useState, useRef} from "react";
 import { db } from '../config/firebase';
 import { getDocs, collection } from 'firebase/firestore';
 import React, { useMemo } from 'react';
@@ -11,7 +11,8 @@ import Button from 'react-bootstrap/Button';
 const GameBoard = () => {
     const [gameList, setGameList] = useState([]);
     const[currentPage, setCurrentPage] = useState(1);
-    const[postsPerPage, setPostsPerPage] = useState(4);
+    const[postsPerPage, setPostsPerPage] = useState();
+   
 
     const dataRef = collection(db, "games");
 
@@ -36,6 +37,20 @@ const GameBoard = () => {
         memoizedData(); 
       }, [memoizedData]); 
 
+      useEffect(() => {
+        
+       
+          const containerWidth = window.innerWidth; 
+          const cardWidth = 256;
+          const cardMargin = 16;
+          const availableSpace = containerWidth - (cardMargin * 2); 
+          const itemsPerRow = Math.max(1, Math.floor(availableSpace / (cardWidth + cardMargin)));
+          const desiredRows = 1;
+          setPostsPerPage(itemsPerRow * desiredRows);
+        
+      }, []);
+
+     
       gameList.sort((a, b) => b.releaseDate - a.releaseDate );
 
       const lastIndex = currentPage * postsPerPage
