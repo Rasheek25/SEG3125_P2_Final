@@ -44,8 +44,8 @@ const PostList = () => {
       
 
       useEffect(() => {
-        memoizedData(); // Call the callback function to fetch data
-      }, [memoizedData]); // Dependency on memoizedData to trigger fetch only on change
+        memoizedData(); 
+      }, [memoizedData]); 
 
       const sortedPostList = useMemo(() => {
     

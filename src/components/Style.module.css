@@ -6,31 +6,31 @@ html, body {
 
 .gameBadge {
     position: absolute;
-    top: 150px; /* Adjust position as needed */
-    right: 10px; /* Adjust position as needed */
-    width: 40px; /* Adjust size as needed */
+    top: 150px; 
+    right: 10px; 
+    width: 40px; 
     height: 40px;
-    background-color: #14293A; /* Change color */
-    color: white; /* Text color */
+    background-color: #14293A; 
+    color: white; 
     border-radius: 50%;
-    font-size: 18px; /* Adjust font size */
+    font-size: 18px; 
     text-align: center;
-    line-height: 40px; /* Center text vertically */
+    line-height: 40px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }
 
   .editorChoice {
     position: absolute;
-    top: 270px; /* Adjust position as needed */
-    right: 40px; /* Adjust position as needed */
-    width: 200px; /* Adjust size as needed */
+    top: 270px; 
+    right: 40px; 
+    width: 200px; 
     height: 40px;
-    background-color: #14293A; /* Change color */
-    color: white; /* Text color */
-    font-size: 16px; /* Adjust font size */
+    background-color: #14293A; 
+    color: white; 
+    font-size: 16px; 
     text-align: center;
-    line-height: 40px; /* Center text vertically */
+    line-height: 40px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }
@@ -60,30 +60,30 @@ html, body {
 
   .rating {
     position: absolute;
-    top: 275px; /* Adjust position as needed */
-    left: 700px; /* Adjust position as needed */
-    width: 100px; /* Adjust size as needed */
+    top: 275px; 
+    left: 700px;
+    width: 100px; 
     height: 100px;
-    background-color: #14293A; /* Change color */
-    color: white; /* Text color */
-    font-size: 60px; /* Adjust font size */
+    background-color: #14293A; 
+    color: white; 
+    font-size: 60px; 
     text-align: center;
-    line-height: 100px; /* Center text vertically */
+    line-height: 100px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }
 
   .type {
     position: absolute;
-    top: 275px; /* Adjust position as needed */
-    left: 550px; /* Adjust position as needed */
-    width: 400px; /* Adjust size as needed */
+    top: 275px; 
+    left: 550px; 
+    width: 400px; 
     height: 100px;
-    background-color: #14293A; /* Change color */
-    color: white; /* Text color */
-    font-size: 40px; /* Adjust font size */
+    background-color: #14293A; 
+    color: white; 
+    font-size: 40px; 
     text-align: center;
-    line-height: 100px; /* Center text vertically */
+    line-height: 100px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }

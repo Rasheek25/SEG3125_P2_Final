@@ -83,17 +83,17 @@ html, body {
 }
 
 .releaseYearSlider {
-  /* Overall width of the slider track */
-  width: 200px; /* Adjust as needed */
+  
+  width: 200px; 
 
-  /* Track styling */
+  
   background-color: #ddd;
-  height: 5px; /* Adjust height of the track */
-  border-radius: 2px; /* Rounded corners for smoothness */
+  height: 5px; 
+  border-radius: 2px; 
   
 }
 
-  /* Thumb styling */
+ 
   .example-thumb {
     cursor: pointer;
     position: absolute;
@@ -105,12 +105,12 @@ html, body {
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
   }
 
-  /* Styling for value labels (optional) */
+  
   .react-slider-value-label {
-    color: #333; /* Color of the value labels */
-    font-size: 12px; /* Adjust font size */
-    position: absolute; /* Position the labels above the track */
-    top: -20px; /* Adjust vertical positioning */
+    color: #333; 
+    font-size: 12px; 
+    position: absolute; 
+    top: -20px; 
   }
 
   .app-container{display:flex; flex-direction:row;}

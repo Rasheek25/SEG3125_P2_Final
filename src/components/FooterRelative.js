@@ -3,7 +3,7 @@ import style from './Style.module.css';
 import { useNavigate } from 'react-router-dom';
 
 const FooterRelative = () => {
-    // Calculate the height needed for the footer to stay at the bottom
+
     const footerStyle = {
         position: 'relative',
         width: '100%',

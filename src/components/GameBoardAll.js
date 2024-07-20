@@ -37,7 +37,7 @@ const GameBoardAll = ({ selectedFilters }) => {
       }, []); 
 
       const filteredGames = gameList.filter(game => {
-        // Convert release date to a Date object for comparison
+ 
         const releaseDate = new Date(game.releaseDate.seconds * 1000);
         const releaseYear = releaseDate.getFullYear();
        

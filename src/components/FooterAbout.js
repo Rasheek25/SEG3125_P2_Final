@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-    // Calculate the height needed for the footer to stay at the bottom
+
     const footerStyle = {
         position: 'absolute',
         left: 0,
